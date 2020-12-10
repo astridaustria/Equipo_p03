@@ -5,7 +5,7 @@
 ### Muñoz Barón Luis Miguel 
 ...
 
-##Parte 1
+#### Parte 1
 
 | Plataforma/ compañía     | Longitud de reads (pb) | # reads x run   | Tiempo      | Costo x 10^6 bases | Error (%) | Química                                                                  |
 |--------------------------|------------------------|-----------------|-------------|--------------------|-----------|--------------------------------------------------------------------------|
@@ -22,7 +22,7 @@ Deschamps, S., Llaca, V.,& May, G.. (2012). Genotyping-by-Sequencing in Plants. 
 FH Munster University of Applied Sciences. (s.f.). Analysis of next-generation sequencing data. 8/12/2020, de FH Munster Sitio web: https://www.fh-muenster.de/eti/downloads/labore/db/bioinf/BFG_Chapter09_NGS_v04.pdf
 
 
-##Parte 2
+### Parte 2
 
 
 1.- zcat ERR486827_1.fastq.gz | awk 'BEGIN{P=1}{if(P==1||P==2){gsub(/^[@]/,">");print}; if(P==4)P=0; P++}' ERR486827_1.fastq.gz > Mgenitalium_1_fasta
